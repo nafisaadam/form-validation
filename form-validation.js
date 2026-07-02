@@ -21,7 +21,7 @@ form.addEventListener("submit",
 		};
 
 		if (password.length < 8) {
-			passwordError.textContent = "Password is required"
+			passwordError.textContent = "Password most be at least eight character"
 			console.log('Password most be at least eight character')
 			// alert("password most be at least eight character")
 			return;
